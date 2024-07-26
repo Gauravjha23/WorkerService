@@ -12,6 +12,7 @@ namespace WorkerService
         public void DisplayCustomerInfo(Customer customer)
         {
             Console.WriteLine($"Name: {customer.Name}, Age: {customer.Age}");
+            Console.WriteLine($"Mobile: {customer.Mobile}, Email: {customer.Email}");
         }
     }
 }

@@ -11,6 +11,6 @@ namespace WorkerService.Model
         public string Name { get; set; }
         public int Age { get; set; }
         public string Mobile { get; set; }
-        public int Email { get; set; }
+        public string Email { get; set; }
     }
 }

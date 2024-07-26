@@ -14,8 +14,8 @@ namespace WorkerService
             // Simulated customer data
             return new List<Customer>
             {
-                new Customer { Name = "John Doe", Age = 30 },
-                new Customer { Name = "Jane Smith", Age = 25 }
+                new Customer { Name = "John Doe", Age = 30 ,Mobile="99",Email ="gmail"},
+                new Customer { Name = "Jane Smith", Age = 25 ,Mobile="91",Email ="oulook"}
             };
         }
     }
